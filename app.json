@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "ShareLendar",
+    "slug": "sharelendar",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "platforms": ["android"],
+    "android": {
+      "package": "com.sharelendar.app",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36,
+            "minSdkVersion": 26
+          }
+        }
+      ]
+    ]
+  }
+}
+

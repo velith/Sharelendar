@@ -33,3 +33,16 @@ google-services.json
 
 # Android Profiling
 *.hprof
+node_modules/
+.expo/
+dist/
+android/
+coverage/
+ios/
+*.keystore
+!debug.keystore
+.env
+.env.local
+npm-debug.*
+yarn-error.*
+
